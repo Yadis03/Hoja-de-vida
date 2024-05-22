@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #CAD593;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenedor {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #CF5C36;
+}
+
+section {
+    background: #FBFBFF;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+section h2 {
+    color: #CF5C36;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section p {
+    color: #040F16;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #CF5C36;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #CF5C36;
+    border-radius: 5px;
+}
+
+form button[type="submit"] {
+    background: #CF5C36;
+    color: #FBFBFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+    background: #AD4125;
+}
